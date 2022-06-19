@@ -4,6 +4,8 @@ Esse é o módulo 1 de introdução ao Python.
 Aqui estão os primeiros passos para se iniciar na linguagem:
 
  - [Hello World](#hello-world)
+ - Variáveis
+ - Funções
  - Tipos de Dados
  - Operadores aritméticos
  - Operadores relacionais
@@ -25,3 +27,23 @@ Pode-se colocar textos entre aspas ('') ou uma variável que guarde um texto.
 >print(a)
 
 O resultado será o mesmo nas duas formas!
+
+## Variáveis
+
+Uma variável é uma forma de se guardar uma informação que será usada no programa ou script que estamos fazendo.
+
+Ao criar uma variável, estamos reservando um espaço na memória RAM do computador para alocar um determinado dado.
+
+No python não precisa se usar palvras reservadas para se declarar uma variável, basta realizar uma atribuição
+> numero = 10
+
+ A variável é "numero", estamos atribuindo a ela o valor 10. O sinal de igual (=) serve para realizar a atribuição
+
+> palavra = 'palavra'
+> print(palavra)
+
+É possível criar duas ou mais variaveis ao mesmo tempo e atribuir valores a elas da seguinte forma:
+
+> numero1, numero2 = 5, 6
+> print(numero1)
+> print(numero2)
